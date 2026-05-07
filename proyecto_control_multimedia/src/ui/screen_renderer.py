@@ -101,7 +101,7 @@ class ScreenRenderer:
             text,
             (30, 50),
             cv2.FONT_HERSHEY_SIMPLEX,
-            1,
+            0.8,
             config.COLOR_GREEN,
             2
         )
