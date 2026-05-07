@@ -19,8 +19,8 @@ MODEL_PATH = BASE_DIR / "models" / "hand_landmarker.task"
 CAMERA_INDEX = 0
 WINDOW_NAME = "Control multimedia por gestos"
 
-FRAME_WIDTH = 960
-FRAME_HEIGHT = 720
+FRAME_WIDTH = 640
+FRAME_HEIGHT = 480
 
 
 # =========================
@@ -50,39 +50,39 @@ COLOR_GRAY = (80, 80, 80)
 # BOTONES VIRTUALES
 # =========================
 
-BUTTON_WIDTH = 150
-BUTTON_HEIGHT = 90
-BUTTON_Y = 560
+BUTTON_WIDTH = 100
+BUTTON_HEIGHT = 60
+BUTTON_Y = 390
 
 BUTTONS_CONFIG = [
     {
         "label": "ANT",
         "action": "previous",
-        "x": 70,
+        "x": 20,
         "y": BUTTON_Y,
     },
     {
         "label": "PLAY",
         "action": "play_pause",
-        "x": 245,
+        "x": 140,
         "y": BUTTON_Y,
     },
     {
         "label": "SIG",
         "action": "next",
-        "x": 420,
+        "x": 260,
         "y": BUTTON_Y,
     },
     {
         "label": "VOL-",
         "action": "volume_down",
-        "x": 595,
+        "x": 380,
         "y": BUTTON_Y,
     },
     {
         "label": "VOL+",
         "action": "volume_up",
-        "x": 770,
+        "x": 500,
         "y": BUTTON_Y,
     },
 ]
